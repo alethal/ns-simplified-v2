@@ -62,7 +62,7 @@ class MainDashboard extends Component {
                     <div className="NavLinksVersion">
                     <Link to="/">Welcome</Link> | <Link to="/help">Help</Link> | <Link to="/forgotpasswordpage">Forgot Password Page</Link> | <Link to={"/weekendslandingpage"}>Weekends Landing Page</Link> | <Link to={"/standaloneplayerpage"}>Stand Alone Player Page</Link>
 <br />
-                       <Link to="/weekendstoredirectpage">Weekends to Redirect</Link> | <Link to="/oneredirectpage">One Redirect Page</Link> | <Link to="/redirecttopage">Redirect to page - weekends</Link>
+
                         <br />
                         <Link to="/weekendstoredirectpageone">WeekendstoredirectPAGEONE</Link> | <Link to="/weekendstoredirectpagetwo">WeekendstoredirectPAGETWO</Link> | <Link to="/weekendstoredirectpagethree">WeekendstoredirectPAGETHREE</Link>
                     </div>
