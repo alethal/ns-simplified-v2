@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ns-cubik.gitlab.io/ns-simplified/",
-  "name": "ns-simplified",
+  "homepage": "https://ns-cubik.gitlab.io/ns-simplified-v2/",
+  "name": "ns-simplified-v2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
