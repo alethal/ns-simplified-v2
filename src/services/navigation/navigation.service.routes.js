@@ -48,7 +48,9 @@ export const routes = {
   oneredirectpage: 'oneredirectpage',
   redirecttopage: 'redirecttopage',
   weekendslandingpage: 'weekendslandingpage',
-  weekendstoredirectpage: 'weekendstoredirectpage',
+  weekendstoredirectpageone: 'weekendstoredirectpageone',
+  weekendstoredirectpagetwo: 'weekendstoredirectpagetwo',
+  weekendstoredirectpagethree: 'weekendstoredirectpagethree',
   standaloneplayerpage: 'standaloneplayerpage',
 };
 
@@ -195,7 +197,14 @@ export const getRedirectToPage = () => `/${routes.redirecttopage}`;
 
 export const getWeekendsLandingPageRoute = () => `/${routes.weekendslandingpage}`;
 
-export const getWeekendsToRedirectPageRoute = () => `/${routes.weekendstoredirectpage}`;
+export const getWeekendsToRedirectPageOne = () => `/${routes.weekendstoredirectpageone}`;
+
+export const getWeekendsToRedirectPageTwo = () => `/${routes.weekendstoredirectpagetwo}`;
+
+
+export const getWeekendsToRedirectPageThree = () => `/${routes.weekendstoredirectpagethree}`;
+
+
 
 export const getApplicationStartRoute = () => `${routes.root}`;
 

@@ -1,27 +1,18 @@
-
-import React, {Component} from 'react';
-import OneRedirectComponent from '../../../components/OneRedirectComponent/OneRedirectComponent.js';
-import '../../../components/OneRedirectComponent/OneRedirectComponent.scss';
-
-
-class OneRedirectPage extends Component {
-    render() {
-        return (
-
-
-
-            <OneRedirectComponent />
-
-
-
-
-
-        );
-    }
+import React from 'react';
+import { Match } from '@reach/router';
+export default function RedirectPageComponent(){
+    return (
+        <Match path="/oneredirectpage">
+            {props =>
+                props.match ? (
+                    <div>The Path is "OneRedirectPage"</div>
+                ) : (
+                    <div>The Path is NOT "The Redirect"</div>
+                )
+            }
+        </Match>
+    )
 }
-
-
-export default OneRedirectPage;
 
 
 
